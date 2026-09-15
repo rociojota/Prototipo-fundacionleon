@@ -6,23 +6,3 @@
 @media(max-width:1000px){.login-page{grid-template-columns:1fr}.login-visual{min-height:300px}.stats-grid{grid-template-columns:repeat(2,1fr)}.grid-2{grid-template-columns:1fr}.sidebar{width:72px}.sidebar .side-brand>div:not(.lion-logo),.sidebar .side-role div,.sidebar nav button span,.sidebar .side-bottom span{display:none}.side-brand{justify-content:center;padding-inline:0}.side-brand>button{margin-left:0}.side-role{justify-content:center}.sidebar nav button,.side-bottom button{justify-content:center}}
 @media(max-width:640px){.login-visual{min-height:300px;padding:28px}.login-copy h1{font-size:44px}.login-panel{padding:30px 22px}.topbar{padding:0 16px}.mobile-menu{display:block}.breadcrumb{display:none}.top-profile>span:not(.avatar){display:none}.view{padding:24px 15px 90px}.welcome-row{align-items:flex-start;flex-direction:column}.welcome-row h1{font-size:25px}.program-card,.hero-status{flex-direction:column;align-items:flex-start;padding:22px}.program-card .button{width:100%;justify-content:center}.program-meta,.hero-details{flex-direction:column;gap:8px}.stats-grid{grid-template-columns:1fr 1fr;gap:9px}.stat-card{padding:13px 10px}.stat-card strong{font-size:18px}.form-grid{grid-template-columns:1fr}.card{padding:17px 15px}.stepper{overflow:auto;justify-content:flex-start;gap:18px}.step{min-width:120px}.timeline{grid-template-columns:1fr}.course-toolbar{align-items:stretch;flex-direction:column}.subject-row{grid-template-columns:1fr 105px}.subject-row .badge{grid-column:2}.group-tabs{grid-template-columns:1fr 1fr}.section-title{align-items:flex-start;flex-direction:column}.range-row{grid-template-columns:1fr 1fr}.range-row b{grid-column:2}.chat-box{right:14px;bottom:80px;width:calc(100vw - 28px)}}
 @media(prefers-color-scheme:dark){:root{color-scheme:light}}
-
-/* Fine-tuned prototype details */
-.program-card textarea{display:block;width:100%;min-height:150px;margin-top:10px;resize:vertical;line-height:1.5}
-.program-card label:has(textarea){display:block;width:100%}
-.subject-row .badge{font-size:15px;padding:8px 12px}
-.help-card .section-title{display:flex;align-items:center;gap:14px}
-.help-card .section-title>div{display:flex;align-items:center;gap:12px}
-.help-card .section-title .eyebrow{margin:0}
-.help-card .section-title h2{margin:0}
-@media(max-width:640px){.program-card textarea{min-height:130px}.subject-row .badge{font-size:14px}}
-
-/* Focused module refinements */
-.program-card .form-grid{align-items:end}
-.program-card .form-grid label:has(textarea){grid-column:1 / -1}
-.program-card .form-grid + .button{margin-top:12px}
-.subject-row .badge{font-size:1rem;font-weight:700;padding:8px 12px}
-.help-card .section-title{display:flex;align-items:center;gap:12px}
-.help-card .section-title>div{display:flex;align-items:center;gap:12px}
-.help-card .section-title .eyebrow,.help-card .section-title h2{margin:0}
-
