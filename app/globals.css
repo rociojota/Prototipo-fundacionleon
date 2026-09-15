@@ -17,3 +17,12 @@
 .help-card .section-title h2{margin:0}
 @media(max-width:640px){.program-card textarea{min-height:130px}.subject-row .badge{font-size:14px}}
 
+/* Focused module refinements */
+.program-card .form-grid{align-items:end}
+.program-card .form-grid label:has(textarea){grid-column:1 / -1}
+.program-card .form-grid + .button{margin-top:12px}
+.subject-row .badge{font-size:1rem;font-weight:700;padding:8px 12px}
+.help-card .section-title{display:flex;align-items:center;gap:12px}
+.help-card .section-title>div{display:flex;align-items:center;gap:12px}
+.help-card .section-title .eyebrow,.help-card .section-title h2{margin:0}
+
